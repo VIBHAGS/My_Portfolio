@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">
+            Spoorthy <span>NSwamy</span>
+        </a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi,It's <span>Spoorthy</span></h1>
+          
+
+            <div class="social-icons">
+                <a href="https://github.com/spoorthy-n-swamy" target="_blank">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/spoorthy-n-swamy-82b493299/" target="_blank">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+                <a href="https://www.instagram.com/_spoorthy.n.swamy_?igsh=MWdibzVleHc4aTZpdA=="  target="_blank" >
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>
+               
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="img.jpeg" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img.jpeg" alt="">
+        </div>
+        <div class="about-content">
+        <h2>About <Span>Me</Span></h2>
+        <p> 
+            Enthusiastic 3rd-year Computer Science student with a solid foundation in C, Python, and Java. Skilled in Java programming,AI and web development.Passionate about contributing to innovative projects, collaborating with professionals, and continuously expanding technical expertise to grow as a versatile developer.</p>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="projects-box">
+            <div class="project-card">
+                <img src="flames.jpg" alt="">
+                <h3>Flames</h3>
+                <p>The FLAMES game in Python is a fun program that predicts relationships between two names by comparing and eliminating common letters. The remaining letters are counted and used to cyclically eliminate letters from the acronym **FLAMES** (Friends, Lovers, Affectionate, Marriage, Enemies, Siblings). The last remaining letter determines the relationship type. Python simplifies the process by handling string manipulations, counting, and looping, making it an engaging project to practice basic programming concepts like loops, conditionals, and string operations.</p>
+            
+            </div>
+            <div class="project-card">
+                <img src="criminal.jpeg" alt="">
+                <h3>Criminal DBMS</h3>
+                <p>A Criminal Database Management System (DBMS) using Java Swing and phpMyAdmin is a desktop application designed to manage criminal records efficiently. The user interface, built with Java Swing, allows users to perform operations like adding, updating, searching, and deleting records. The backend database, managed with **MySQL** through **phpMyAdmin**, securely stores criminal data such as personal details, crime history, and case status. Java connects to the database via **JDBC**, enabling seamless communication between the application and the database. This project is ideal for learning database integration, GUI design, and CRUD operations, making it useful for law enforcement agencies to track and manage records effectively.</p>
+          
+            </div>
+            <div class="project-card">
+                <img src="trafficlight.jpg" alt="">
+                <h3>AI-powered Traffic light control system</h3>
+                <p>An AI-powered Traffic Light Control System using React.js, Flask, and the YOLOv4-tiny pre-trained model is designed to optimize traffic flow through real-time vehicle detection. The frontend, developed with React.js, provides an interactive interface for visualizing live traffic data. The backend, powered by Flask, handles communication between the frontend and the YOLOv4-tiny model, which processes live video feeds to detect and classify vehicles efficiently. The system dynamically adjusts traffic light durations based on traffic density, improving efficiency and reducing congestion. This project combines modern web development, machine learning, and computer vision to deliver a smart traffic management solution.</p>
+    
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full-Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+
+            </div>
+            <div class="input-group-2">
+                <textarea name="" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+                <input type="submit" vlaue="Send Message" class="btn">
+            </div>
+
+            
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#">
+                <i class="bx bxl-github"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-instagram-alt"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-twitter"></i>
+            </a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            &copy; Spoorthy N Swamy | All Rights Reserved
+        </p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
